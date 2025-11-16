@@ -42,7 +42,7 @@ void ArrayList<T>::selectionSort() {
             }
         }
         if (i != min){
-            swap (i, minIndex);
+            swap (i, min);
             numSwaps++;
         }
     }
